@@ -7,6 +7,7 @@ const options = {
     binaryMIMETypes: [
         'image/jpeg',
     ],
+    framework: 'express',
 };
 
 const proxy = serverlessplus.createProxy(app, options);
